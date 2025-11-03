@@ -24,7 +24,7 @@ void setup() {
   Serial.println("--------------------------------");
   Serial.println("Aguardando comandos (ex: LED ON, LED OFF)...");
 }
-
+//Atividade 1
 void loop() {
   atividade1();
 }
@@ -51,6 +51,8 @@ void atividade1() {
   }
 }
 
+//Atividade 2
+
 void atividade2() {
   Serial.println("Executando Atividade 2...");
   
@@ -71,6 +73,8 @@ void atividade2() {
   Serial.println(" F");
 }
 
+//Atividade 3
+
 void atividade3() {
   Serial.println("Executando Atividade 3...");
   
@@ -86,6 +90,8 @@ void atividade3() {
     Serial.println("NÃO ENCONTRADO");
   }
 }
+
+//Atividade 4
 
 void atividade4() {
   Serial.println("Executando Atividade 4...");
