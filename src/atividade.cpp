@@ -10,7 +10,7 @@ bool state = false;
 
 void setup() {
   Serial.begin(9600); 
-  Serial.println("Sistema pronto. Iniciando...");
+  Serial.println("Começando");
   Serial.println("--------------------------------");
   
   atividade2(); 
