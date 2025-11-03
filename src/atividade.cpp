@@ -55,6 +55,7 @@ void atividade2() {
   Serial.println("Executando Atividade 2...");
   
   String mensagem = "Temperatura = 27C";
+
   int startIndex = mensagem.indexOf('=') + 1;
   int endIndex = mensagem.indexOf('C');
   String numberString = mensagem.substring(startIndex, endIndex);
